@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
-  { name: 'Pricing', href: '#' },
+  { name: 'Company', href: '#' },
 ]
 
 export default function Example() {
@@ -23,7 +23,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://media.licdn.com/dms/image/v2/D560BAQEeM7_jou0MXQ/img-crop_100/img-crop_100/0/1730118824530?e=1745452800&v=beta&t=gKy_BFgrnMlBsaWuJqvEAFSA21JXR2txwzs2KaR20ec"
+                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
               />
             </a>
@@ -47,7 +47,7 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Dashboard <span aria-hidden="true">&rarr;</span>
+              Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -90,7 +90,7 @@ export default function Example() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   >
-                    Dashboard
+                    Log in
                   </a>
                 </div>
               </div>
@@ -115,19 +115,20 @@ export default function Example() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Official Release Comming soon.{' '}
+              Announcing our next round of funding.{' '}
               <a href="#" className="font-semibold text-indigo-600">
                 <span aria-hidden="true" className="absolute inset-0" />
-                Welcome to  <span aria-hidden="true">&rarr;</span>
+                Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
           <div className="text-center">
             <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-            Batmail <br /> Where Innovation Meets Simplicity!
+              Data to enrich your online business
             </h1>
             <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-            At Batmail, we specialize in delivering cutting-edge solutions that simplify your business operations. Our mission is to empower growth through innovation, efficiency, and seamless integration.
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+              fugiat veniam occaecat.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
